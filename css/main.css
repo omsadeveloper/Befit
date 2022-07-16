@@ -1,0 +1,36 @@
+header {
+  background-color: var(--secondary);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo a {
+  font-size: 24px;
+  color: var(--third);
+}
+
+header .container .navbar a {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+header .container .navbar a:hover,
+header .bars-icon i:hover {
+  color: var(--third);
+}
+header .container .navbar li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+header .bars-icon i {
+  color: var(--white);
+  font-size: 24px;
+  transition: all 0.5s ease;
+}
+header .bars-icon {
+  display: none;
+}
