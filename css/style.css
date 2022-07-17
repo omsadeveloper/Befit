@@ -1,8 +1,8 @@
 /* Global.css */
 @import url("global.css");
-/* main.css for index.html */
-@import url("main.css");
 /* Render All Element Normally */
 @import url("normalize.css");
 /* Font Awesome Library */
 @import url("all.min.css");
+/* main.css for index.html */
+@import url("main.css");

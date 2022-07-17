@@ -1,4 +1,9 @@
 header {
+  box-shadow: 0 5px 15px var(--Shadow1);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
   background-color: var(--secondary);
 }
 header .container {
@@ -7,11 +12,11 @@ header .container {
   align-items: center;
 }
 header .logo a {
-  font-size: 24px;
-  color: var(--third);
+  /* font-size: 24px; */
+  color: var(--white);
 }
 
-header .container .navbar a {
+/* header .container .navbar a {
   color: var(--white);
   font-size: 15px;
   font-weight: 300;
@@ -25,12 +30,25 @@ header .bars-icon i:hover {
 header .container .navbar li {
   display: inline-block;
   padding-right: 1rem;
-}
+} */
 header .bars-icon i {
   color: var(--white);
   font-size: 24px;
   transition: all 0.5s ease;
 }
+
 header .bars-icon {
-  display: none;
+  /* display: none; */
 }
+
+/* Start workout section */
+.workout {
+  text-align: center;
+}
+.workout .title {
+  color: var(--white);
+}
+.workout img {
+  width: 250px;
+}
+/* Ent workout section */
