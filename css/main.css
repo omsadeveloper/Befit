@@ -12,7 +12,7 @@ header .container {
   align-items: center;
 }
 header .logo a {
-  /* font-size: 24px; */
+  font-size: 24px;
   color: var(--white);
 }
 
